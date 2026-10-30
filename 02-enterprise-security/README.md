@@ -1,7 +1,13 @@
-# Módulo 2: Infraestructura e identidad
+# Fase 02 · Infraestructura empresarial e identidades
 
-Meses 4–6. Windows Server, Windows 11, Linux, Active Directory, Kerberos, Entra ID, MFA, RBAC, GPO, firewall, VPN, segmentación, CIS Benchmarks, Sysmon y auditd.
+La arquitectura de AegisTech incorpora servicios Windows/Linux, redes segmentadas y mecanismos de identidad que materializan los controles de acceso y protección definidos a partir de los riesgos.
 
-**Proyecto:** laboratorio de red empresarial virtual aislada, con estado inicial, medidas de hardening y verificación antes/después.
+## Diseño técnico
 
-**Aprobación:** evidencia de privilegio mínimo, registros disponibles y hallazgos corregidos.
+- Active Directory, Kerberos, GPO y conceptos de Microsoft Entra ID.
+- Autenticación multifactor, RBAC y privilegio mínimo.
+- Firewalls, segmentación y restricciones de conectividad.
+- Hardening de sistemas y servicios con referencia a CIS Benchmarks.
+- Eventos Windows, Sysmon y auditd como fuentes de observabilidad.
+
+La configuración técnica se relaciona con activos y riesgos previamente identificados. Sus registros alimentan la [Fase 03 · Operaciones defensivas](../03-soc-blue-team/README.md).
