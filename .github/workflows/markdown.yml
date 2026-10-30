@@ -1,0 +1,19 @@
+name: Repository hygiene
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  markdown-links-and-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify expected project files
+        shell: bash
+        run: |
+          test -f README.md
+          test -f ROADMAP.md
+          test -f progress/90-days.md
+          test -f templates/lab-template.md
+          test -f company/aegistech/README.md
