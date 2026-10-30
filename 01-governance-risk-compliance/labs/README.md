@@ -1,9 +1,13 @@
-# Laboratorios GRC
+# Escenarios de gobierno y riesgos
 
-1. Crear inventario de activos y procesos de AegisTech.
-2. Evaluar cinco riesgos con metodología explícita.
-3. Construir un perfil NIST CSF actual/objetivo.
-4. Diseñar una SoA simulada con justificación.
-5. Auditar controles con evidencia técnica del laboratorio.
+Los escenarios GRC relacionan los activos de AegisTech con decisiones de seguridad y sus controles.
 
-Usar las plantillas de `templates/`. No afirmar certificación ISO ni cumplimiento regulatorio real.
+## Ámbitos documentados
+
+- Inventario y clasificación de activos.
+- Evaluación de amenazas, impactos y riesgos.
+- Perfiles NIST CSF actuales y objetivos.
+- Selección de controles ISO 27001/27002 y CIS Controls.
+- Evidencia técnica de verificación y tratamiento.
+
+Las evaluaciones corresponden a un entorno simulado, sin atribuir certificaciones ni auditorías reales.
