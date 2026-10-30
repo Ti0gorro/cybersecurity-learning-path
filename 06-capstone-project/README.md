@@ -1,7 +1,15 @@
-# Módulo 6: especialización y proyecto integrador
+# Fase 06 — Ingeniería de detección y automatización
 
-Meses 16–18. Especialización propuesta: Detection Engineering + Security Automation.
+Esta fase integra registros de endpoints, red y aplicaciones con información de activos, amenazas y vulnerabilidades.
 
-Evolucionar la arquitectura de detección IoT del trabajo de título hacia un flujo operacional con telemetría, enriquecimiento, reglas, clasificación, casos MITRE, métricas, evidencias y playbooks.
+## Arquitectura
 
-Medir precisión, cobertura, falsos positivos, latencia y utilidad para analistas. Documentar límites del experimento y diferencias frente a un SOC empresarial.
+El flujo conceptual comprende recolección, normalización, enriquecimiento, detección, correlación, priorización y gestión de incidentes.
+
+Las reglas de seguridad se relacionan con MITRE ATT&CK. La arquitectura contempla la incorporación de análisis estadístico y automatización para contextualizar hallazgos.
+
+## Evaluación técnica
+
+La eficacia del sistema se analiza mediante cobertura, precisión, falsos positivos, falsos negativos, latencia y trazabilidad de alertas.
+
+Los resultados de laboratorio no equivalen a un desempeño validado en entornos productivos.
