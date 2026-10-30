@@ -1,21 +1,19 @@
-# Módulo 1: Gobierno, riesgos y cumplimiento
+# Fase 01 · Gobierno, riesgos y cumplimiento
 
-Duración orientativa: meses 1–3.
+La seguridad de AegisTech se organiza mediante una estructura de gobierno basada en activos, riesgos, controles y evidencias.
 
-## Estudio
-- ISO/IEC 27001:2022: requisitos 4–10 y Anexo A (respetar licencia de ISO).
-- ISO/IEC 27002:2022: estructura y selección de controles.
-- NIST CSF 2.0: Govern, Identify, Protect, Detect, Respond, Recover.
-- CIS Controls v8.1: IG1 y controles prioritarios.
-- Ley chilena 21.663; Ley 21.719 (vigencia a partir de diciembre 2026); Ley 21.459; regulación aplicable y ANCI.
+## Marco de referencia
 
-## Entregables
-1. Contexto y alcance del SGSI simulado.
-2. Inventario y clasificación de activos.
-3. Perfil actual y objetivo NIST con análisis de brechas.
-4. Matriz de riesgos y plan de tratamiento.
-5. Declaración de aplicabilidad justificada (SoA).
-6. Políticas y auditoría interna simulada.
+**ISO/IEC 27001:2022** orienta el SGSI simulado; **ISO/IEC 27002:2022**, la selección de controles. **NIST CSF 2.0** permite comparar perfiles de seguridad actuales y objetivos, mientras **CIS Controls v8.1** ofrece medidas técnicas priorizables. También se considera el marco jurídico chileno según su ámbito de aplicación.
 
-## Criterio de salida
-Defender al menos cinco riesgos priorizados, asociar controles y mostrar evidencia de su verificación.
+## Componentes de gestión
+
+- Contexto, alcance y activos.
+- Criterios de impacto y probabilidad; matriz de riesgos.
+- Perfil NIST CSF y análisis de brechas.
+- Tratamiento de riesgos y declaración de aplicabilidad.
+- Políticas, procedimientos y evidencia de controles.
+
+Los [escenarios GRC](labs/README.md) conectan estos criterios con la [infraestructura](../02-enterprise-security/README.md).
+
+> Caso simulado: no constituye certificación ISO ni declaración de cumplimiento legal de una entidad real.
