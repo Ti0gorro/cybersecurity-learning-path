@@ -31,7 +31,7 @@ Repositorio central de aprendizaje, laboratorios reproducibles y evidencias prof
 - [Plantilla de riesgos](templates/risk-template.md)
 - [Plantilla de incidentes](templates/incident-template.md)
 - [Convenciones de contribución](CONTRIBUTING.md)
-- [Issues abiertas](../../issues)
+- [Issues abiertas](https://github.com/Ti0gorro/cybersecurity-learning-path/issues)
 
 ## Metodología
 
