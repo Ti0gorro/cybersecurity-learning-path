@@ -1,7 +1,19 @@
-# Módulo 3: SOC, Blue Team y respuesta a incidentes
+# Fase 03 · SOC, detección y respuesta
 
-Meses 7–9. SIEM/SOAR, Wazuh, Elastic, Splunk/Sentinel como referencia, KQL/SPL, Windows Event Logs, Sysmon, Zeek, Suricata, MITRE ATT&CK, Sigma, triage y escalamiento.
+Esta fase describe cómo la telemetría de AegisTech se transforma en alertas investigables y decisiones de respuesta.
 
-**Proyecto:** mini-SOC sobre la infraestructura de AegisTech.
+## Flujo operativo
 
-**Aprobación:** detecciones reproducibles, análisis de falsos positivos, tickets, evidencias y playbooks de respuesta. Solo telemetría propia o de entrenamiento.
+**Fuentes de eventos → Ingesta → Normalización → Correlación → Triage → Investigación → Respuesta**
+
+El diseño contempla Wazuh, Sysmon, Zeek y Suricata, además de conceptos de SIEM/SOAR aplicables a otras plataformas. MITRE ATT&CK contextualiza técnicas adversarias y Sigma sirve como referencia para reglas de detección.
+
+## Escenarios
+
+- Accesos anómalos y cambios de privilegios.
+- Actividad inusual de procesos y conexiones.
+- Correlación entre eventos de host y red.
+- Clasificación de alertas, falsos positivos y severidad.
+- Evidencias, tickets, escalamiento y playbooks.
+
+Las observaciones se conectan con la [gestión de vulnerabilidades](../04-vulnerability-management/README.md) y la [detección integrada](../06-capstone-project/README.md). Se utilizan únicamente escenarios autorizados.
